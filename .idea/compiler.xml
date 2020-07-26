@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="password-resource-server" />
+        <module name="OauthServer" />
+        <module name="password-authorization-server" />
+        <module name="code-resource-server" />
+        <module name="code-authorization-server" />
+        <module name="jwt-authorization-server" />
+        <module name="ResourceServer" />
+        <module name="jwt-resource-server" />
+        <module name="code-client-resttemplate-jdbc" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OauthServer" options="-parameters" />
+      <module name="OauthServerInMemery" options="-parameters" />
+      <module name="ResourceServer" options="-parameters" />
+      <module name="SecurityOauth2" options="-parameters" />
+      <module name="code-authorization-server" options="-parameters" />
+      <module name="code-client-resttemplate-jdbc" options="-parameters" />
+      <module name="code-resource-server" options="-parameters" />
+      <module name="jwt-authorization-server" options="-parameters" />
+      <module name="jwt-resource-server" options="-parameters" />
+      <module name="password-authorization-server" options="-parameters" />
+      <module name="password-resource-server" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+    </option>
+  </component>
+</project>

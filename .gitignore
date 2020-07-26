@@ -1,0 +1,8 @@
+# Project exclude paths
+/OauthServer/target/
+/OauthServerInMemery/jwt-authorization-server/target/
+/OauthServerInMemery/jwt-resource-server/target/
+/OauthServerInMemery/password-authorization-server/target/
+/OauthServerInMemery/password-resource-server/target/
+/OauthServerInMemery/target/
+/ResourceServer/target/
