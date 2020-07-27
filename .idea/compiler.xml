@@ -11,9 +11,9 @@
         <module name="password-authorization-server" />
         <module name="code-resource-server" />
         <module name="code-authorization-server" />
+        <module name="jwt-resource-server" />
         <module name="jwt-authorization-server" />
         <module name="ResourceServer" />
-        <module name="jwt-resource-server" />
         <module name="code-client-resttemplate-jdbc" />
         <module name="untitled" />
       </profile>
