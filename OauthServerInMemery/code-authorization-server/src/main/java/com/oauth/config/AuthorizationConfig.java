@@ -32,7 +32,7 @@ public class AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
                 .authorizedGrantTypes("authorization_code") //授权模式标识
                 .scopes("read_user_info") //作用域
                 .resourceIds("resource1") //资源id
-                //.autoApprove(false) //true会跳转到授权页面
+                //.autoApprove(false) //true会跳转到授权页面如果不配置autoApprove，那获取授权码时，需要手动点一下授权
                 .redirectUris("http://localhost:9001/callback"); //回调地址
         // @formatter: on
     }
